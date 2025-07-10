@@ -1,17 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* share style */
 
 
 /* nav style */
+header{
+    background-image:url('../Assets/Hero-bg.png');
+    
+    
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+   
 }
 .nav_title{
     font-size: 34px;
     font-weight: 700;
     color: #4E47FF;
+    padding: 51px;
 }
 .Sing_up_btn{
     font-size: 16px;
@@ -20,19 +31,69 @@ nav{
     padding: 12px 36px ;
     border-radius:10px;
     background-color: #4E47FF;
+    height: 48px;
+    width: 174px;
+    border:none;
      
 }
 
 /* banner style */
 
-.banner_style{
-    /* align-items: center; */
+.banner{
     text-align: center;
+    margin: 158px 117px 0 117px ;
+    
+  
 }
 .banner_title{
     font-size: 65px;
 }
-header{
-    background-image:url('../Assets/Hero-bg.png');
+.banner_btn{
+   height: 48px;
+   width:174px;
+   font-size: 16px;
+   font-weight: 700px;
+    color: white;
+    padding: 12px 36px ;
+    border-radius:10px;
+    background-color: #4E47FF;
     
+}
+/* action style */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 124px 159px 0 141px;
+    align-items: center;
+   
+    
+}
+.action_content{
+margin: 62px 220px 0 62px;
+mask-position: 23px;
+}
+.action_title{
+    font-size: 42px;
+}
+.action_pera{
+    color:#a3a2b3;
+    font-size: 24px;
+    gap: 10px;
+    padding:1px 0;
+    
+}
+.action_btn{
+    height: 48px;
+    width: 229px;px;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px ;
+    border-radius:10px;
+    background-color: #4E47FF;
+   
+    
+}
+.action_img{
+    border-radius:48px;
+
 }
