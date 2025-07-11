@@ -3,8 +3,25 @@
     padding: 0;
 }
 /* share style */
-
+.primary_font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
+
+.secondary_font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 
 /* nav style */
 header{
@@ -20,8 +37,8 @@ nav{
    
 }
 .nav_title{
-    font-size: 34px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight:bold;
     color: #4E47FF;
     padding: 51px;
 }
@@ -192,8 +209,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    
    
 }
 .submit {
@@ -204,8 +220,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     width: 100%;
     padding: 10px 20px;
     text-decoration: none;
-    width: 100%;
-    padding: 10px 20px;
+    
    
 }
 .sub_btn{
