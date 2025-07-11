@@ -69,13 +69,13 @@ main{
 /* action style */
 .action{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 124px 159px 0 141px;
     align-items: center;
-    max-width: 1140px;  
+    /* max-width: 1140px;   */
 }
 .action_img{
-    margin-left: 980px;
+margin-left: 737px;
 }
 /* .action_content{
 max: width aut 1140px;
@@ -125,4 +125,30 @@ margin:24px 159px 0 141px;
 .active{
     font-size: 80px;
     color: #4E47FF;
+}
+/* User comment  */
+.users_about{
+    
+}
+.user_say{
+    display: block;
+    text-align: center;
+    margin-top: 137px;
+    font-size: 42px;
+} 
+.user_container{
+    display:flex;
+    justify-content:space-around;
+    gap: 23px;
+    justify-content: space-around;
+    margin-right:151px;
+    margin-left: 151px;
+    margin-top: 50px;
+    
+    
+}
+.user{
+    
+    padding: 24px 68px 94px 68px;
+    box-shadow: 0 4px 4px 0 #000000bb;
 }
