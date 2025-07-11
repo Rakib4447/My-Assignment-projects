@@ -4,6 +4,7 @@
 }
 /* share style */
 
+}
 
 /* nav style */
 header{
@@ -36,6 +37,11 @@ nav{
     border:none;
      
 }
+.Sing_up_btn:hover{
+    background: #7c4dff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(124, 77, 255, 0.5)
+}
 main section
 main{
     max-width: 1140px;
@@ -66,6 +72,11 @@ main{
     background-color: #4E47FF;
     
 }
+.banner_btn:hover{
+     background: #7c4dff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(124, 77, 255, 0.5)
+}
 /* action style */
 .action{
     display: flex;
@@ -84,6 +95,7 @@ gap: 23px;} */
 
 .action_title{
     font-size: 42px;
+    
 }
 .action_pera{
     color:#a3a2b3;
@@ -103,6 +115,11 @@ gap: 23px;} */
     margin-top: 23px;
    
     
+}
+.action_btn:hover{
+     background: #7c4dff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(124, 77, 255, 0.5)
 }
 .action_img{
     border-radius:48px;
@@ -179,17 +196,26 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     margin-bottom: 20px;
    
 }
-.submit{
+.submit {
     height: 64px;
     border-radius: 5px;
     background-color: #4E47FF;
-    display: block;
+    display: block; 
     width: 100%;
     padding: 10px 20px;
-    
+    text-decoration: none;
     width: 100%;
     padding: 10px 20px;
    
+}
+.sub_btn{
+    text-decoration: none;
+    
+}
+.submit:hover{
+     background: #7c4dff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(124, 77, 255, 0.5)
 }
 .section-title{
     font-size: 97px;
